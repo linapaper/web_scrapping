@@ -3,7 +3,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 from urllib.request import urlopen 
 
-url = 'https://news.ycombinator.com/'  # Reemplaza esto con la URL del sitio que deseas hacer scraping
+url = 'https://news.ycombinator.com/'  
 
 noticias_dict = {}
 
